@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "badge": "Let's discuss your project",
+      "title": "Transform your ideas into modern web applications",
+      "description": "Full-stack developer specialized in React/TypeScript for modern user interfaces, and in process automation with n8n to optimize your workflows.",
+      "cta_projects": "View my work"
+    }
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Fullstack Developer & Automation Expert",
+    "description": "I design high-performance digital solutions and automate your business processes to boost your productivity.",
+    "cta_projects": "View my projects",
+    "cta_contact": "Contact me"
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Skills & Expertise",
+    "description": "Passionate about web development and automation, I put my skills at the service of your projects to create innovative and efficient solutions.",
+    "features": {
+      "frontend": {
+        "name": "Frontend Development",
+        "description": "Experienced in modern frontend frameworks like React, Next.js and TypeScript. Creating responsive and user-friendly interfaces with a focus on performance and accessibility."
+      },
+      "backend": {
+        "name": "Backend Development",
+        "description": "Building scalable server-side applications using Node.js, Express, Supabase and working with various databases. Experienced in API development and system architecture."
+      },
+      "automation": {
+        "name": "Workflow Automation",
+        "description": "Expertise in n8n to create powerful automated workflows, integrating various services and APIs to optimize business processes and increase productivity."
+      }
+    },
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Architecture",
+      "ia_automation": "AI & Automation",
+      "tools_devops": "Tools & DevOps"
+    },
+    "availability": {
+      "title": "Availability",
+      "status": "Open to new projects"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "Discover my work",
+    "view_details": "View details",
+    "github": "Source Code",
+    "live": "Live Demo",
+    "date": "Date",
+    "version": "Version",
+    "technologies": "Technologies",
+    "features_title": "Key Features",
+    "list": {
+      "n8n_email": {
+        "title": "Email Automation with n8n",
+        "description": "n8n workflow for automated and intelligent email management with categorization and labeling.",
+        "details": "Development of an n8n workflow to automate email management. The system automatically analyzes, categorizes and labels incoming emails, creating new labels if necessary. A solution to optimize productivity and maintain an organized inbox.",
+        "features": [
+          "Automatic email sorting by category",
+          "Intelligent label creation and application",
+          "Classification based on content and sender",
+          "Customizable rule system",
+          "Action history and reporting"
+        ]
+      },
+      "devfest": {
+        "title": "DevFest Hackathon – AI & Circular Economy",
+        "description": "Frontend of an AI solution for sustainable resource management, as part of the DevFest Hackathon.",
+        "details": "Development of the front-end of an eco-responsible platform integrating AI, allowing users to track and improve their environmental impact. Created during the DevFest Hackathon with a modern UI/UX approach.",
+        "features": [
+          "Intuitive interface to visualize ecological impact",
+          "Dynamic forms powered by Supabase",
+          "Responsive design and clean UX",
+          "Modular architecture adapted to AI APIs",
+          "Client-side performance optimization"
+        ]
+      },
+      "welia": {
+        "title": "HIU Hackathon – Welia, AI for positive actions",
+        "description": "Front-end application to promote daily positive actions, gamified and automated by AI.",
+        "details": "I participated in the front-end development of Welia, an app that automates the recognition of positive behaviors via AI scoring mechanisms. Project presented during the Inter-University Hackathon (HIU).",
+        "features": [
+          "Tracking positive actions via a dynamic interface",
+          "Automated points and rewards with AI logic",
+          "Light/dark themes with enhanced accessibility",
+          "Reusable UI components (shadcn)",
+          "Instant user feedback"
+        ]
+      },
+      "restaurant_app": {
+        "title": "Tech Watch – Restaurant Booking App",
+        "description": "Table booking application for customers and management for restaurateurs.",
+        "details": "Tech watch project on an intuitive app allowing customers to easily book a table and restaurateurs to manage their bookings in real-time via a polished interface.",
+        "features": [
+          "Seamless booking system for users",
+          "Dashboard for restaurateurs (attendance, tables)",
+          "Modern and responsive UI components",
+          "Advanced filters (date, time, number of people)",
+          "Mobile-first experience"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's talk about your project",
+    "heading": "Contact ",
+    "heading_accent": "me",
+    "description": "Have an idea or a project in mind? Don't hesitate to send me a message. I'd love to chat with you and see how I can help.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "description": "Send me an email anytime."
+      },
+      "phone": {
+        "label": "Phone",
+        "description": "Available for a quick call."
+      },
+      "response": {
+        "label": "Fast Response",
+        "value": "Within 24-48h",
+        "description": "I commit to getting back to you as soon as possible."
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "name_placeholder": "Your name",
+      "email": "Work Email",
+      "email_placeholder": "your@email.com",
+      "project": "Your Project",
+      "project_placeholder": "Briefly describe your needs...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "validation_error": "Please fill in all required fields.",
+      "success_message": "Message sent successfully! I'll get back to you soon.",
+      "error_message": "An error occurred while sending the message. Please try again later."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Giovanni, All rights reserved."
+  },
+  "notFound": {
+    "title": "PAGE NOT FOUND",
+    "error": "Error",
+    "stopover": "Stopover!!!",
+    "backHome": "GO BACK HOME"
+  }
+}

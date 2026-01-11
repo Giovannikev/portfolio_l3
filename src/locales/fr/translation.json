@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "badge": "Discutons de votre projet",
+      "title": "Transformez vos idées en applications web modernes",
+      "description": "Développeur full-stack spécialisé en React/Typescript pour des interfaces utilisateur modernes, et en automatisation de processus avec n8n pour optimiser vos workflows.",
+      "cta_projects": "Voir mes réalisations"
+    }
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "role": "Développeur Fullstack & Expert en Automatisation",
+    "description": "Je conçois des solutions numériques performantes et j'automatise vos processus métiers pour booster votre productivité.",
+    "cta_projects": "Voir mes projets",
+    "cta_contact": "Me contacter"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "subtitle": "Compétences & Expertise",
+    "description": "Passionné par le développement web et l'automatisation, je mets mes compétences au service de vos projets pour créer des solutions innovantes et efficaces.",
+    "features": {
+      "frontend": {
+        "name": "Développement Frontend",
+        "description": "Expérimenté dans les frameworks frontend modernes comme React, Next.js et TypeScript. Création d'interfaces réactives et conviviales avec un accent sur la performance et l'accessibilité."
+      },
+      "backend": {
+        "name": "Développement Backend",
+        "description": "Construction d'applications côté serveur évolutives utilisant Node.js, Express, Supabase et travail avec diverses bases de données. Expérimenté dans le développement d'API et l'architecture système."
+      },
+      "automation": {
+        "name": "Automatisation des Flux de Travail",
+        "description": "Expertise en n8n pour créer des flux de travail automatisés puissants, intégrant divers services et APIs pour optimiser les processus métier et augmenter la productivité."
+      }
+    },
+    "categories": {
+      "frontend": "Développement Frontend",
+      "backend": "Architecture Backend",
+      "ia_automation": "IA & Automatisation",
+      "tools_devops": "Outils & DevOps"
+    },
+    "availability": {
+      "title": "Disponibilité",
+      "status": "Ouvert aux nouveaux projets"
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "subtitle": "Découvrez mes réalisations",
+    "view_details": "Voir les détails",
+    "github": "Code Source",
+    "live": "Démo Live",
+    "date": "Date",
+    "version": "Version",
+    "technologies": "Technologies",
+    "features_title": "Fonctionnalités clés",
+    "list": {
+      "n8n_email": {
+        "title": "Automatisation Email avec n8n",
+        "description": "Workflow n8n pour la gestion automatisée et intelligente des emails avec catégorisation et étiquetage.",
+        "details": "Développement d'un workflow n8n pour automatiser la gestion des emails. Le système analyse, catégorise et étiquette automatiquement les emails entrants, créant de nouveaux labels si nécessaire. Une solution pour optimiser la productivité et maintenir une boîte mail organisée.",
+        "features": [
+          "Tri automatique des emails par catégorie",
+          "Création et application intelligente de labels",
+          "Classification basée sur le contenu et l'expéditeur",
+          "Système de règles personnalisables",
+          "Historique des actions et reporting"
+        ]
+      },
+      "devfest": {
+        "title": "Hackathon DevFest – IA & Économie Circulaire",
+        "description": "Frontend d'une solution IA pour la gestion durable des ressources, dans le cadre du DevFest Hackathon.",
+        "details": "Développement du front d'une plateforme éco-responsable intégrant l'IA, permettant aux utilisateurs de suivre et d'améliorer leur impact sur l'environnement. Réalisé lors du Hackathon DevFest avec une approche UI/UX moderne.",
+        "features": [
+          "Interface intuitive pour visualiser l'impact écologique",
+          "Formulaires dynamiques alimentés par Supabase",
+          "Design responsive et UX épurée",
+          "Architecture modulaire adaptée aux APIs IA",
+          "Optimisation des performances côté client"
+        ]
+      },
+      "welia": {
+        "title": "Hackathon HIU – Welia, IA pour actions positives",
+        "description": "Application front pour valoriser les bonnes actions quotidiennes, gamifiées et automatisées par l'IA.",
+        "details": "J'ai participé au développement front de Welia, une app qui automatise la reconnaissance des comportements positifs via des mécanismes de scoring IA. Projet présenté lors du Hackathon Inter Universitaire (HIU).",
+        "features": [
+          "Suivi des bonnes actions via une interface dynamique",
+          "Points et récompenses automatisés avec logique IA",
+          "Thèmes clairs/sombres avec accessibilité renforcée",
+          "Composants UI réutilisables (shadcn)",
+          "Feedback utilisateur instantané"
+        ]
+      },
+      "restaurant_app": {
+        "title": "Veille Technologique – App de Réservation de Restaurants",
+        "description": "Application de réservation de tables pour les clients et de gestion pour les restaurateurs.",
+        "details": "Projet de veille technologique sur une app intuitive permettant aux clients de réserver une table facilement et aux restaurateurs de gérer leurs réservations en temps réel via une interface soignée.",
+        "features": [
+          "Système de réservation fluide pour les utilisateurs",
+          "Tableau de bord pour restaurateurs (présence, tables)",
+          "Composants UI modernes et responsives",
+          "Filtres avancés (date, heure, nombre de personnes)",
+          "Expérience mobile-first"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "Parlons de votre projet",
+    "heading": "Contactez-",
+    "heading_accent": "moi",
+    "description": "Vous avez une idée ou un projet en tête ? N'hésitez pas à m'envoyer un message. Je serais ravi de discuter avec vous et de voir comment je peux vous aider.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "description": "Envoyez-moi un email à tout moment."
+      },
+      "phone": {
+        "label": "Téléphone",
+        "description": "Disponible pour un appel rapide."
+      },
+      "response": {
+        "label": "Réponse rapide",
+        "value": "Sous 24-48h",
+        "description": "Je m'engage à vous répondre dans les meilleurs délais."
+      }
+    },
+    "form": {
+      "name": "Nom complet",
+      "name_placeholder": "Votre nom",
+      "email": "Email professionnel",
+      "email_placeholder": "votre@email.com",
+      "project": "Votre projet",
+      "project_placeholder": "Décrivez brièvement votre besoin...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "validation_error": "Veuillez remplir tous les champs obligatoires.",
+      "success_message": "Message envoyé avec succès ! Je reviens vers vous rapidement.",
+      "error_message": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Giovanni, Tous droits réservés."
+  },
+  "notFound": {
+    "title": "PAGE NON TROUVÉE",
+    "error": "Erreur",
+    "stopover": "Escale !!!",
+    "backHome": "RETOUR À L'ACCUEIL"
+  }
+}
