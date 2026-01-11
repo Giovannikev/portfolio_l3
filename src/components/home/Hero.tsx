@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { Download } from 'lucide-react';
 
 interface HeroAction {
   text: string;
@@ -31,6 +32,17 @@ interface HeroProps {
 }
 
 export function HeroSection({ badge, title, description, actions }: HeroProps) {
+  const handleDownloadCV = () => {
+    const pdfPath = '/cv.pdf'
+    const link = document.createElement('a')
+    link.href = pdfPath
+    link.download = 'Giovanni-Kevin-CV.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    window.open(pdfPath, '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <section
       className={cn(
@@ -98,7 +110,7 @@ export function HeroSection({ badge, title, description, actions }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="max-w-[850px] text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl"
+            className="max-w-212.5 text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl"
           >
             <span className="inline-block bg-linear-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
               {title.split(' ').slice(0, -2).join(' ')}
@@ -113,7 +125,7 @@ export function HeroSection({ badge, title, description, actions }: HeroProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-lg relative z-10 max-w-[650px] font-medium text-muted-foreground sm:text-xl leading-relaxed"
+            className="text-lg relative z-10 max-w-162.5 font-medium text-muted-foreground sm:text-xl leading-relaxed"
           >
             {description}
           </motion.p>
@@ -141,6 +153,17 @@ export function HeroSection({ badge, title, description, actions }: HeroProps) {
                 </Link>
               </Button>
             ))}
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={handleDownloadCV}
+              className="h-12 px-8 text-base font-semibold transition-all duration-300 hover:bg-muted hover:-translate-y-1"
+           >
+              <span className="flex items-center gap-2">
+                Télécharger le CV
+                <Download className="size-4" />
+              </span>
+            </Button>
           </motion.div>
         </div>
       </div>
