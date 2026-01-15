@@ -29,9 +29,10 @@ interface HeroProps {
   title: string;
   description: string;
   actions: HeroAction[];
+  download_cv: string;
 }
 
-export function HeroSection({ badge, title, description, actions }: HeroProps) {
+export function HeroSection({ badge, title, description, actions, download_cv }: HeroProps) {
   const handleDownloadCV = () => {
     const pdfPath = '/cv.pdf'
     const link = document.createElement('a')
@@ -160,7 +161,7 @@ export function HeroSection({ badge, title, description, actions }: HeroProps) {
               className="h-12 px-8 text-base font-semibold transition-all duration-300 hover:bg-muted hover:-translate-y-1"
            >
               <span className="flex items-center gap-2">
-                Télécharger le CV
+                {download_cv}
                 <Download className="size-4" />
               </span>
             </Button>

@@ -13,6 +13,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen">
       <HeroSection
+        download_cv={t('home.hero.download_cv')}
         badge={{
           text: t('home.hero.badge'),
         }}

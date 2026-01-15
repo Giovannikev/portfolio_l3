@@ -10,7 +10,8 @@
       "badge": "Let's discuss your project",
       "title": "Transform your ideas into modern web applications",
       "description": "Full-stack developer specialized in React/TypeScript for modern user interfaces, and in process automation with n8n to optimize your workflows.",
-      "cta_projects": "View my work"
+      "cta_projects": "View my work",
+      "download_cv": "Download CV"
     }
   },
   "hero": {
