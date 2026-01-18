@@ -32,18 +32,23 @@
       },
       "backend": {
         "name": "Backend Development",
-        "description": "Building scalable server-side applications using Node.js, Express, Supabase and working with various databases. Experienced in API development and system architecture."
+        "description": "Building scalable server-side applications using Node.js, Express, Supabase, Odoo and working with various databases. Experienced in API development and system architecture."
       },
       "automation": {
         "name": "Workflow Automation",
         "description": "Expertise in n8n to create powerful automated workflows, integrating various services and APIs to optimize business processes and increase productivity."
+      },
+      "data_science": {
+        "name": "Data Science",
+        "description": "Data analysis, modeling and machine learning with Python, Pandas, NumPy, scikit-learn and Jupyter."
       }
     },
     "categories": {
       "frontend": "Frontend Development",
       "backend": "Backend Architecture",
       "ia_automation": "AI & Automation",
-      "tools_devops": "Tools & DevOps"
+      "tools_devops": "Tools & DevOps",
+      "data_science": "Data Science"
     },
     "availability": {
       "title": "Availability",

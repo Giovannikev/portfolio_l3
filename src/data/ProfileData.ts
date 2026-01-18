@@ -1,5 +1,5 @@
 import type { SkillCategory } from "@/types";
-import { Proportions, Brain, Server } from "lucide-react";
+import { Proportions, Brain, Server, BarChart3 } from "lucide-react";
 
 const features = [
     {
@@ -13,7 +13,7 @@ const features = [
         key: 'backend',
         name: 'Développement Backend',
         description:
-            'Construction d\'applications côté serveur évolutives utilisant Node.js, Express, Supabase et travail avec diverses bases de données. Expérimenté dans le développement d\'API et l\'architecture système.',
+            'Construction d\'applications côté serveur évolutives utilisant Node.js, Express, Supabase, Odoo et travail avec diverses bases de données. Expérimenté dans le développement d\'API et l\'architecture système.',
         icon: Server,
     },
     {
@@ -22,6 +22,13 @@ const features = [
         description:
             'Expertise en n8n pour créer des flux de travail automatisés puissants, intégrant divers services et APIs pour optimiser les processus métier et augmenter la productivité.',
         icon: Brain,
+    },
+    {
+        key: 'data_science',
+        name: 'Data Science',
+        description:
+            'Analyse de données, modélisation et machine learning avec Python, Pandas, NumPy, scikit-learn et Jupyter.',
+        icon: BarChart3,
     },
 ];
 
@@ -70,6 +77,10 @@ const skillCategories: SkillCategory[] = [
                 name: 'Supabase',
                 logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg',
             },
+            {
+                name: 'Odoo',
+                logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Odoo_logo.svg',
+            },
         ],
     },
     {
@@ -88,6 +99,33 @@ const skillCategories: SkillCategory[] = [
             {
                 name: 'Open Router',
                 logo: 'data:image/webp;base64,UklGRkADAABXRUJQVlA4IDQDAABQHgCdASq/AOQAPp1OpEulpKQhp1iYMLATiWlu4XHg+QRimP7rGv4ifrhu+n0x4f8vwo/9A7LhSgfClA+FKB8KUD4UoHwpQPhSf8cNpLu0mx++X02U7N9WeMe1VGvpjdCtJFep3cjfVL4SGclatIZL/g98aXknHfXP8+MAfdn7Wy/8qKi23odJ0P3Ep77NlxYz2/flT5pAJnR4uurFuJydpPhUbFbzgvfbtvgujp5A31TkYXDQAqMtOsSW6jhj9/xyk+d3j4k2QuSBuBtk+dkVGp//SbpiffMUe/1Dgy0qIboR2wlA+FKB8KUD4UoHwpQPhSgfClA+FKBwAAD+/r0QAAACZXzo0ktTJUXzdnrZcLYHJnkjqAdlGJA7lB8j4VuPeYrlIFxnzvRZ2CaceWl9+n1wLVjw+k2K8Ki8oIhrMTKumFO3BFE2GA2RgLFbxE1D9OZhAKAR5BFBdsGvYEc0f136gbjwApPX1JYMJjODZfw4J7795tuXdYwbYbdvYQoc0QvSLm04hfBkDxgUyAaDxW5/M3KzUGzIOFY8C+A1GWJuQhGmq+BGdvLXjwduB3k2XVKlOHrFBewUUozJt7LtWmyYEeizz145MUI3KAgY54G54S84w2mo8Gc0Z19nv8New9ZfXMe4xgTDncVa8NlSdJzIDpbIkv+vlLy9INcAafYAgqFKNQZcMhIFeeXm80pCGMPi052nKWsEhk/Xf0Psi93tFvoa4f2tt3WVWY4fyxQIJtdQXZ7mUhFNGKU0LwAuetvRNVAba9MmwXCZiGKAtzRukQX8DvVuF1F7PEHxEdhRsIGtcEqURdmC19sacMKMShlbFAk4FNaylykv1d7Lem+SumP+nSVDm8dlSU2vxXO4g2/0SlFmHwtP9y/zjEPeyULFdEGL9upQXNMa3nsFOqM83db+rx5KQKnjLPNtsgBftWM3xteD2HVPxHiyID4aiz6F+ygvkBVoIFIGpDwcQfYbKSMXI5pR1tjxVrPmvUEgROW5LQwKuIe75KCE4yNqm81MO6DBu7HmaKf5rMvVTSWf3JrvM+Qabfwjq6zu4speeAj3Ox7FFDhzOeUTAAAAAAAA',
+            },
+        ],
+    },
+    {
+        key: 'data_science',
+        title: 'Data Science',
+        color: 'bg-teal-50 dark:bg-cyan-950',
+        skills: [
+            {
+                name: 'Python',
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+            },
+            {
+                name: 'Pandas',
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg',
+            },
+            {
+                name: 'NumPy',
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg',
+            },
+            {
+                name: 'scikit-learn',
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg',
+            },
+            {
+                name: 'Jupyter',
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
             },
         ],
     },

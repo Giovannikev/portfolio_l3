@@ -32,18 +32,23 @@
       },
       "backend": {
         "name": "Développement Backend",
-        "description": "Construction d'applications côté serveur évolutives utilisant Node.js, Express, Supabase et travail avec diverses bases de données. Expérimenté dans le développement d'API et l'architecture système."
+        "description": "Construction d'applications côté serveur évolutives utilisant Node.js, Express, Supabase, Odoo et travail avec diverses bases de données. Expérimenté dans le développement d'API et l'architecture système."
       },
       "automation": {
         "name": "Automatisation des Flux de Travail",
         "description": "Expertise en n8n pour créer des flux de travail automatisés puissants, intégrant divers services et APIs pour optimiser les processus métier et augmenter la productivité."
+      },
+      "data_science": {
+        "name": "Data Science",
+        "description": "Analyse de données, modélisation et machine learning avec Python, Pandas, NumPy, scikit-learn et Jupyter."
       }
     },
     "categories": {
       "frontend": "Développement Frontend",
       "backend": "Architecture Backend",
       "ia_automation": "IA & Automatisation",
-      "tools_devops": "Outils & DevOps"
+      "tools_devops": "Outils & DevOps",
+      "data_science": "Data Science"
     },
     "availability": {
       "title": "Disponibilité",
